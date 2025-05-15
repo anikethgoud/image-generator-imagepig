@@ -1,0 +1,19 @@
+{
+  "name": "text-to-image-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "imagepig": "^1.0.10",
+    "inquirer": "^12.6.0",
+    "nodemon": "^3.1.10"
+  }
+}
