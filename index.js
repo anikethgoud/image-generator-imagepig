@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.static('public'))
 app.use(express.urlencoded({extended:true}));
 
-const API_KEY = '4d34a97c-b5ea-4b94-838d-0426e6dc4726';
+const API_KEY = 'YOUR IMAGEPIG API HERE';
 
 async function generateImage(promptText) {
     try {
